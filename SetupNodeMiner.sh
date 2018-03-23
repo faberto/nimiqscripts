@@ -14,7 +14,7 @@ read nimiqApache
 
 #Make sure system is updated
 sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get -y upgrade
 
 #Install requirements
 sudo apt-get install -y curl git build-essential
@@ -26,10 +26,10 @@ sudo apt-get install -y nodejs
 #Add Gulp globally
 sudo npm install -g gulp
 
-#Get the nimiq project
+#Get the Nimiq project
 git clone https://github.com/nimiq-network/core
 
-#Build nimiq project
+#Build Nimiq project
 cd core
 sudo npm install
 sudo npm run build
@@ -47,7 +47,7 @@ fi
 
 
 #Get SSL Cert
-sudo certbot certonly --standalone --preferred-challenges http -d nodeone.nimiqpool.com
+sudo certbot certonly --standalone --preferred-challenges http -d $nimiqDomain
 
 #Generate Mining Runscript
 cd ..
