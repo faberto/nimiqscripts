@@ -33,6 +33,7 @@ git clone https://github.com/nimiq-network/core
 cd core
 sudo npm install
 sudo npm run build
+sudo npm run prepare
 
 #setup Letsencrypt
 sudo apt-get install -y software-properties-common
