@@ -33,6 +33,9 @@ git clone https://github.com/nimiq-network/core
 cd core
 sudo npm install
 sudo npm run build
+cd clients/nodejs
+sudo npm install
+cd ../../
 sudo npm run prepare
 
 #setup Letsencrypt
