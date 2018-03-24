@@ -55,12 +55,12 @@ git clone https://github.com/nimiq-network/core
 
 #Build Nimiq project
 cd core
-sudo npm install
-sudo npm run build
+npm install
+npm run build
 cd clients/nodejs
-sudo npm install
+npm install
 cd ../../
-sudo npm run prepare
+npm run prepare
 
 #setup Letsencrypt
 sudo apt-get install -y software-properties-common
