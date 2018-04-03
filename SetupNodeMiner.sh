@@ -76,4 +76,4 @@ cd ..
 touch $nimiqScript
 chmod +x $nimiqScript
 echo "cd core/clients/nodejs/" >> $nimiqScript 
-echo "node index.js --host=$nimiqDomain --wallet-address=\"$nimiqAddress\" --port=5566 --cert=/etc/letsencrypt/live/$nimiqDomain/cert.pem --key=/etc/letsencrypt/live/$nimiqDomain/privkey.pem -miner=$nimiqThreads --statistics=1" >> $nimiqScript
+echo "node index.js --host=$nimiqDomain --wallet-address=\"$nimiqAddress\" --port=5566 --cert=/etc/letsencrypt/live/$nimiqDomain/cert.pem --key=/etc/letsencrypt/live/$nimiqDomain/privkey.pem --miner=$nimiqThreads --statistics=10" >> $nimiqScript
