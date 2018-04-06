@@ -9,7 +9,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/faberto/nimiqscripts/master/S
 
 
 ## Create a NodeJS startscript if you already have the Nimiq NodeJS Client installed:
-Go into the Parent dictionary of core ( if you type "ls -la" you should see something like this)
+Navigate into the parent directory of core ( if you type "ls -la" you should see something like this)
 ```sh
 drwxr-xr-x  4 faberto faberto 4096 Apr  6 15:04 .
 drwxr-xr-x  4 faberto faberto 4096 Apr  6 14:53 ..
